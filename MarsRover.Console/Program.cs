@@ -11,7 +11,7 @@ namespace MarsRoverChallenge
     {
         static void Main(string[] args)
         {
-            //Depency Injection
+            //Depedency Injection
             var serviceProvider = new ServiceCollection()
     
            .AddTransient<IRoverService, RoverService>()
