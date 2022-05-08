@@ -52,9 +52,13 @@ namespace MarsRoverChallenge
             var data = roverDirections.InputForSingleRoverDirections(rover);
             var listOfRoversDirections = roverDirections.InputForMultiRoversDirections(listOfRovers);
 
+            Console.WriteLine("***********Single Rover Test***********");
+
             Console.WriteLine(data);
 
-            foreach(var tempRover in listOfRoversDirections)
+
+            Console.WriteLine("***********Multi Rovers Test***********");
+            foreach (var tempRover in listOfRoversDirections)
             {
                 Console.WriteLine(tempRover);
             }
